@@ -26,7 +26,7 @@ public class DivisionTest {
     @Test
     public void testDivision2() {
         String valorEsperado = "La división no es exacta. \n"
-                + "Cociente: 16\n"
+                + "Cociente: 4\n"
                 + "Residuo: 1";
         String valorActual = Division.evaluar(17, 4);
         assertEquals(valorEsperado, valorActual);
